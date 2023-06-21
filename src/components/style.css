@@ -1,0 +1,158 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    background-color: #820000;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: fixed;
+    width: 100%;
+    padding-right: 20px;
+
+}
+.header h1 a {
+    text-decoration: none;
+    font-family: "Garamond", serif;
+    padding-left: 15px;
+    color: bisque;
+}
+
+.header ul {
+    padding-right: 30px;
+}
+
+.header ul li {
+    font-family: "Garamond", serif;
+    display: inline-block;
+    list-style: none;
+    padding-top: 5px;
+    margin: 8px;
+}
+
+.header ul li:hover {
+    text-decoration: underline;
+    color: bisque;
+}
+
+.header ul li a {
+    text-decoration: none;
+    color: bisque;
+}
+
+.main {
+    padding-top: 10px;
+    text-align: center;
+    background-color: bisque;
+    height: 590px;
+    padding-top: 80px;
+}
+
+.main span {
+    color: brown;
+    cursor: pointer;
+}
+
+.main span:hover {
+    color: grey;
+    cursor: pointer;
+}
+
+.greet {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.name {
+    font-size: 30px;
+    font-family: Verdana, Tahoma, sans-serif;
+    margin: 10px;
+}
+
+.click {
+    font-size: 10px;
+    padding-top: 22px;
+}
+
+.circle img {
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+    background-color: brown;
+    border-radius: 50%;
+    border-bottom: 20px brown;
+    margin-top: 10px;
+    margin-left: 18px;
+}
+
+.circle img:hover {
+    transform: rotate(360deg);
+    transition: 3s;
+}
+
+.paragraph1 {
+    font-family: "Garamond", serif;
+    padding-top: 24px;
+}
+
+.paragraph1 span {
+    color: brown;
+}
+
+.about {
+    background-color: #4E6C50;
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 110px;
+    color: black;
+    font-family: "Garamond", serif;
+}
+
+.project {
+    background-color: #F2DEBA;
+    height: 600px;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 70px;
+    font-family: "Garamond", serif;
+}
+
+
+.footer {
+    padding-top: 0px;
+}
+
+.head-footer {
+    line-height: 2px;
+    background-color: #4E6C50;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.sosmed {
+    margin-top: 16px;
+    display: inline-block;
+
+}
+
+.sosmed a {
+    text-decoration: none;
+ 
+    color: #F2DEBA;
+    padding: 0px 10px;
+}
+
+.fontSize {
+    font-size: 21px;
+}
